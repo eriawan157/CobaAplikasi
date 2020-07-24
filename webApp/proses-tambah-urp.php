@@ -8,7 +8,7 @@
         $eks   = explode(".",$_FILES['lampiran']['name']);
         $foto_ktp = "Ktp-".round(microtime(true)).".".end($eks);
         $sb    = $_FILES['lampiran']['tmp_name'];
-        $upd    = move_uploaded_file($sb,'../images/'.$foto_ktp);
+        $upd    = move_uploaded_file($sb,'images/'.$foto_ktp);
         $nmr_ktp = $_POST['nmr_ktp'];
         $nama_pemohon = $_POST['nama_pemohon'];
         $tempat_lahir = $_POST['tempat_lahir'];
@@ -21,7 +21,7 @@
         $extensi   = explode(".",$_FILES['lampiran']['name']);
         $lampiran = "Sr-".round(microtime(true)).".".end($extensi);
         $sumber    = $_FILES['lampiran']['tmp_name'];
-        $upload    = move_uploaded_file($sumber,'../images/'.$lampiran);
+        $upload    = move_uploaded_file($sumber,'images/'.$lampiran);
 
 
         $sql ="insert into mhn_ur_pribadi(foto_ktp,nmr_ktp,nama_pemohon,tempat_lahir,tanggal_lhr,jenis_kelamin,pekerjaan,alamat,nomor_hp

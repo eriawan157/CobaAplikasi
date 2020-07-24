@@ -16,7 +16,7 @@
         $extensi   = explode(".",$_FILES['lampiran']['name']);
         $lampiran = "Bnn-".round(microtime(true)).".".end($extensi);
         $sumber    = $_FILES['lampiran']['tmp_name'];
-        $upload    = move_uploaded_file($sumber,'../images/'.$lampiran);
+        $upload    = move_uploaded_file($sumber,'images/'.$lampiran);
 
 
         $sql ="insert into mhn_audiensi (kategori,nama_pemohon,nama_instansi,tanggal_kunjungan,waktu,keperluan,nomor_hp,jumlah_peserta

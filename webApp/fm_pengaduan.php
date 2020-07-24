@@ -10,7 +10,7 @@
 <body style="background-color:	#F0FFFF">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" >
     <a class="navbar-brand" href="index.php">
-            <img src="../images/logo.png" alt="" style="height: 45px;">
+            <img src="images/logo.png" alt="" style="height: 45px;">
             </a>
             <a class="navbar-brand" href="index.php">
             Kabupaten Kediri

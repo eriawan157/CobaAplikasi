@@ -9,7 +9,7 @@
 <body style="background-color:	#AFC8FF;">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" >
             <a class="navbar-brand" href="index.php">
-            <img src="../images/logo.png" alt="" style="height: 45px;">
+            <img src="images/logo.png" alt="" style="height: 45px;">
             </a>
             <a class="navbar-brand" href="index.php">
             Kabupaten Kediri
@@ -59,7 +59,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="first-slide" src="../images/blue.jpg" alt="First slide" width= "2000px" height="300">
+      <img class="first-slide" src="images/blue.jpg" alt="First slide" width= "2000px" height="300">
       <div class="container">
         <div class="carousel-caption text-left">
           <h1>Sistem Informasi Pelayanan Masyarakat BNN Kabupaten Kediri</h1>
@@ -68,7 +68,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img class="second-slide" src="../images/blue.jpg"width= "2000px" height="300" alt="Second slide">
+      <img class="second-slide" src="images/blue.jpg"width= "2000px" height="300" alt="Second slide">
       <div class="container">
       <div class="carousel-caption text-left">
           <h1>Badan Narkotika Nasional Kabupaten Kediri</h1>
@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img class="third-slide" src="../images/blue.jpg" width= "2000px" height="300" alt="Third slide">
+      <img class="third-slide" src="images/blue.jpg" width= "2000px" height="300" alt="Third slide">
       <div class="container">
       <div class="carousel-caption text-left">
           <h1>PSDKU POLINEMA DI KEDIRI</h1>
@@ -111,20 +111,20 @@
   <!-- Three columns of text below the carousel -->
   <div class="row">
     <div class="col-lg-4">
-      <img class="rounded-circle" src="../images/mohon.png" alt="Generic placeholder image" width="140" height="140">
+      <img class="rounded-circle" src="images/mohon.png" alt="Generic placeholder image" width="140" height="140">
       <h2>Permohonan</h2>
       <p>Permohonan meliputi Sosialisasi, Audiensi, Tes Urine Pribadi dan Tes Urin Instansi</p>
     
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="rounded-circle" src="../images/rehab.png" alt="Generic placeholder image" width="140" height="140">
+      <img class="rounded-circle" src="images/rehab.png" alt="Generic placeholder image" width="140" height="140">
       <h2>Rehabilitasi</h2>
       <p>Rehabilitasi adalah proses untuk membantu para penderita yg memerlukan kemampuan 
       medis untuk mencapai kemampuan fisik,psikologis dan sosial yg maksimal</p>
       
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="rounded-circle" src="../images/adu.png" alt="Generic placeholder image" width="140" height="140">
+      <img class="rounded-circle" src="images/adu.png" alt="Generic placeholder image" width="140" height="140">
       <h2>Pengaduan</h2>
       <p>Pengaduan adalah pemberitahuan yang disertai permintaan oleh pihak yang berkepentingan 
       kepada pejabat yang berwenang untuk menindak menurut Hukum, terhadap seseorang yang telah melakukan 
